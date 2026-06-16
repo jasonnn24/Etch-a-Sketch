@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.etchGrid {
+    display: grid;
+    
+    grid-template-columns: repeat(var(--grid-size, 16), 1fr);
+    grid-template-rows: repeat(var(--grid-size, 16), 1fr);
+
+    width: 960px;
+    height: 960px;
+    border: 3px dotted yellow;
+}
+
+.box {
+    border: 3px dotted blue;
+}
+
+.setSize {
+    padding: 40px;
+}
